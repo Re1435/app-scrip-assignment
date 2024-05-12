@@ -1,0 +1,98 @@
+.top-nav {
+  background-color: black;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.top-icon {
+  width: 16px;
+  height: 16px;
+}
+.icon-text-container p {
+  color: rgb(215, 52, 2);
+  font-size: 12px;
+}
+
+.main-bar {
+  width: 1440px;
+  height: 188px;
+  border: 0 0 1px 0;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-top: 14px;
+}
+
+.logo-img {
+  width: 36px;
+  height: 36px;
+  margin-top: 14px;
+}
+
+.main-bar h1 {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 40px;
+}
+.nav-icons {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+.nav-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-tabs-bar {
+  width: 636px;
+  margin-left: 410px;
+  gap: 64px;
+  display: flex;
+  margin-top: 0px;
+}
+.bottom-tabs-bar h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(37, 32, 32, 1);
+}
+
+hr {
+  border: 1px solid rgb(211, 209, 209);
+}
+
+/* -----------Header CSS------------ */
+
+.hero-header {
+  width: 721px;
+  height: 168px;
+  margin-left: 360px;
+  color: black;
+}
+
+.hero-header h1 {
+  width: 666px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 72px;
+}
+.hero-header p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
